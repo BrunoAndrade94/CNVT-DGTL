@@ -1,0 +1,18 @@
+# Ignorar arquivos temporários do sistema
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Ignorar pastas de build/compilação
+/build/
+/dist/
+/node_modules/
+
+# Ignorar configurações do editor
+.vscode/
+*.sublime-workspace
+
+# Ignorar senhas e arquivos sensíveis
+.env
+config/secrets.json
